@@ -2,6 +2,12 @@ package com.driver;
 
 public class Student {
 
+    public Student(String name, int age, double averageScore) {
+        this.name = name;
+        this.age = age;
+        this.averageScore = averageScore;
+    }
+
     private String name;
     private int age;
     private double averageScore;
